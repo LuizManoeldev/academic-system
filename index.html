@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acadêmico - IFPB</title>
+</head>
+<body>
+    <div>
+        Nome:<input id="nome"><br>
+        Idade:<input id="idade" type="number"><br>
+        Matrícula:<input id="matricula"><br>
+
+        <button onclick="controlador.inserir()">Cadastrar</button>
+
+        <ol id="listaAlunos">
+
+        </ol>
+    </div>
+ 
+
+    <script src="modelo/aluno.js"></script>
+    <script src="repositorio/aluno_repositorio.js"></script>
+    <script src="servico/aluno_service.js"></script>
+    <script src="controlador/aluno_controlador.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplinas</title>
+</head>
+<body>
+    Codigo:<input id="codigo"><br>
+    Nome:<input id="nomeDisciplina" ><br>
+    
+    <button onclick=" controlador2.inserir()">Cadastrar Disciplina</button>
+    <button onclick="controlador2.listarDisciplinas()"> Listar Disciplinas</button>
+    
+
+    <ul id="listaDisciplinas">
+    </ul>
+    
+    <script src="modelo/disciplina.js"></script>
+    <script src="repositorio/disciplina_repositorio.js"></script>
+    <script src="servico/disciplina_service.js"></script>
+    <script src="controlador/disciplina_controlador.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
